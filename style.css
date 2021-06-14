@@ -1,0 +1,29 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    font-family: Open Sans, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+
+.iframe-container > iframe {
+    border: 0;
+    width: 100%;
+    flex: 1;
+}
